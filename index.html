@@ -1,42 +1,113 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jogos da Intrnet</title>
-        <style>
-            header{
-                background-color: #fffb03;
-                color: #000000;
-                text-align: center;
-                max-width: 800px;
-                margin: 0 auto;
-                border: 5px solid #ff0303;
-            }
-            main {
-                background-color: #FFFFFF;
-                color: #000000;
-                max-width: 800px;
-                margin: 0 auto;
-                padding: 16px;
-            }
-            img{
-                width: 80px;
-                height: 80px;
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <h1>Pagina sobre Jogos</h1>
-            <p>Informações sobre jogos de internet</p>
-            
-        </header>
-        <main>
-            <img src="Gemini_Generated_Image_sep7tasep7tasep7.png" alt="Ilustração em pixel art de um jovem gamer sorridente com cabelo colorido e headset, jogando no computador. Ao fundo, elementos cibernéticos em tons de azul e verde neon, incluindo ícones de Wi-Fi, o símbolo "@" e um controle de videogame. No topo está escrita a palavra "GAMES" e, na base, a palavra "INTERNET".">
-            <h2>Meu primeiro post</h2>
-            <p>Por: Zaqueu henrique</p>
-            <p>Boas vindas a minha pagina, aqui irei compartilhar informações sobre os jogos que existem na internet.</p>
-        </main>
-    </body>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia das Motos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🏍 Guia das Motos</h1>
+    <p>Conheça os principais estilos, cilindradas e marcas.</p>
+</header>
+
+<nav>
+    <a href="#estilos">Estilos</a>
+    <a href="#cilindradas">Cilindradas</a>
+    <a href="#marcas">Marcas</a>
+</nav>
+
+<section id="estilos">
+    <h2>Estilos de Motos</h2>
+
+    <div class="card">
+        <h3>🏍 Esportiva</h3>
+        <p>Alta velocidade, aerodinâmica e desempenho para pistas e estradas.</p>
+    </div>
+
+    <div class="card">
+        <h3>🛣 Naked</h3>
+        <p>Sem carenagem, confortável e ideal para uso urbano.</p>
+    </div>
+
+    <div class="card">
+        <h3>🌍 Trail</h3>
+        <p>Indicada para estrada e terra, oferecendo versatilidade.</p>
+    </div>
+
+    <div class="card">
+        <h3>🛵 Scooter</h3>
+        <p>Prática, econômica e excelente para deslocamentos na cidade.</p>
+    </div>
+
+    <div class="card">
+        <h3>🤠 Custom</h3>
+        <p>Visual clássico, posição confortável e motor com bastante torque.</p>
+    </div>
+</section>
+
+<section id="cilindradas">
+    <h2>Cilindradas</h2>
+
+    <table>
+        <tr>
+            <th>Cilindrada</th>
+            <th>Uso</th>
+        </tr>
+        <tr>
+            <td>125cc</td>
+            <td>Economia e cidade</td>
+        </tr>
+        <tr>
+            <td>160cc</td>
+            <td>Cidade e pequenas viagens</td>
+        </tr>
+        <tr>
+            <td>300cc</td>
+            <td>Uso misto</td>
+        </tr>
+        <tr>
+            <td>500cc</td>
+            <td>Viagens e desempenho</td>
+        </tr>
+        <tr>
+            <td>750cc+</td>
+            <td>Alta potência e turismo</td>
+        </tr>
+    </table>
+</section>
+
+<section id="marcas">
+    <h2>Principais Marcas</h2>
+
+    <ul>
+        <li>Honda</li>
+        <li>Yamaha</li>
+        <li>Kawasaki</li>
+        <li>Suzuki</li>
+        <li>BMW Motorrad</li>
+        <li>Ducati</li>
+        <li>Triumph</li>
+        <li>KTM</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Curiosidade</h2>
+    <button onclick="mostrarDica()">
+        Clique para receber uma dica
+    </button>
+
+    <p id="resultado"></p>
+</section>
+
+<footer>
+    <p>Projeto desenvolvido para estudos de HTML, CSS e JavaScript.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
 </html>
